@@ -16,6 +16,8 @@
 
 package net.servicestack;
 
+import android.util.Log;
+
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import io.grpc.okhttp.OkHttpChannelBuilder;
@@ -82,9 +84,16 @@ public class ChannelBuilder {
         if (testCa == null) {
             return (SSLSocketFactory) SSLSocketFactory.getDefault();
         }
-        SSLContext context = SSLContext.getInstance("TLS");
+        SSLContext context = SSLContext.getInstance("TLSv1.2");
+
         context.init(getKeyManagers(clientcert), getTrustManagers(testCa) , null);
+        String[] mylist= context.createSSLEngine().getEnabledProtocols();
+        for(int i =0 ;i< mylist.length;i++){
+            Log.d("GRPC DEMO",mylist[i]);
+        }
+
         return context.getSocketFactory();
+
     }
     private static KeyManager[] getKeyManagers(InputStream testCa) throws Exception {
         KeyStore ks = KeyStore.getInstance(KeyStore.getDefaultType());

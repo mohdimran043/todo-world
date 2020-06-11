@@ -1,6 +1,7 @@
 package net.servicestack.androidgrpc;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -32,14 +33,18 @@ public class MainActivity extends AppCompatActivity {
         InputStream is = null;
            InputStream clientis = null;
         try {
+            Log.d("GRPC DEMO","ON CREATE");
             is = getResources().getAssets().open("root.crt");
             clientis = getResources().getAssets().open("client2.crt");
             channel = ChannelBuilder.buildTls(
                 "ptt.do7a.io", 2000, is,clientis);
             is.close();
             clientis.close();
+            Log.d("GRPC DEMO","CHANNEL READY");
         } catch (Throwable e) {
             e.printStackTrace();
+            Log.d("GRPC DEMO Throwable",e.getMessage());
+
         }
 
         final GrpcServicesGrpc.GrpcServicesStub client =
@@ -62,21 +67,32 @@ public class MainActivity extends AppCompatActivity {
 //                    @Override public void onError(Throwable t) {}
 //                    @Override public void onCompleted() {}
 //                });
+try{
+    Log.d("GRPC DEMO","my world is so crazy");
+    client2.hello(Ptt.HelloReq.newBuilder().
+                    setInterface(Ptt.ConnectionInterface.newBuilder().setInterfaceType(Ptt.ConnectionInterface.InterfaceEnum.ANDROID).setInterfaceVersion("1.0").build())
+                    .build(),
+            new StreamObserver<Ptt.HelloRes>() {
 
-                client2.hello(Ptt.HelloReq.newBuilder().
-                                setInterface(Ptt.ConnectionInterface.newBuilder().setInterfaceType(Ptt.ConnectionInterface.InterfaceEnum.ANDROID).setInterfaceVersion("1.0").build())
-                                .build(),
-                        new StreamObserver<Ptt.HelloRes>() {
+                @Override
+                public void onNext(Ptt.HelloRes value) {
+                    Snackbar.make(view, value.getChannelNameAr(), Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
+                }
 
-                            @Override
-                            public void onNext(Ptt.HelloRes value) {
-                                Snackbar.make(view, value.getChannelNameAr(), Snackbar.LENGTH_LONG)
-                                        .setAction("Action", null).show();
-                            }
+                @Override public void onError(Throwable t) {
+                    t.printStackTrace();
+                    Log.d("GRPC DEMO onError",t.getMessage());
+                }
+                @Override public void onCompleted() {
+                    Log.d("GRPC DEMO","Completed activity");
 
-                            @Override public void onError(Throwable t) {}
-                            @Override public void onCompleted() {}
-                        });
+                }
+            });
+} catch (Exception e){
+    Log.d("GRPC DEMO Exception",e.getMessage());
+                }
+
             }
         });
     }
