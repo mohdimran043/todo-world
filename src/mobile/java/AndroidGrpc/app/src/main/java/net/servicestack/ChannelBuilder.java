@@ -92,6 +92,7 @@ public class ChannelBuilder {
             Log.d("GRPC DEMO",mylist[i]);
         }
 
+       // return new TLSSocketFactory(context.getSocketFactory());
         return context.getSocketFactory();
 
     }
