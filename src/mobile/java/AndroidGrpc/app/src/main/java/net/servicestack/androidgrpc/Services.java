@@ -246,7 +246,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         userName_ = s;
@@ -260,7 +260,7 @@ public final class Services {
         getUserNameBytes() {
       java.lang.Object ref = userName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         userName_ = b;
@@ -334,7 +334,7 @@ public final class Services {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  net.servicestack.androidgrpc.Services.internal_static_AssignRoles_MetaEntry_descriptor, 
+                  net.servicestack.androidgrpc.Services.internal_static_AssignRoles_MetaEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -848,7 +848,7 @@ public final class Services {
           getUserNameBytes() {
         java.lang.Object ref = userName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           userName_ = b;
@@ -865,7 +865,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         userName_ = value;
         onChanged();
         return this;
@@ -874,7 +874,7 @@ public final class Services {
        * <code>string UserName = 1;</code>
        */
       public Builder clearUserName() {
-        
+
         userName_ = getDefaultInstance().getUserName();
         onChanged();
         return this;
@@ -888,7 +888,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         userName_ = value;
         onChanged();
         return this;
@@ -1552,7 +1552,7 @@ public final class Services {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  net.servicestack.androidgrpc.Services.internal_static_AssignRolesResponse_MetaEntry_descriptor, 
+                  net.servicestack.androidgrpc.Services.internal_static_AssignRolesResponse_MetaEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -2473,7 +2473,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 4;</code>
        */
       public net.servicestack.androidgrpc.Services.ResponseStatus.Builder getResponseStatusBuilder() {
-        
+
         onChanged();
         return getResponseStatusFieldBuilder().getBuilder();
       }
@@ -2492,7 +2492,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder> 
+          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder>
           getResponseStatusFieldBuilder() {
         if (responseStatusBuilder_ == null) {
           responseStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3000,7 +3000,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         provider_ = s;
@@ -3014,7 +3014,7 @@ public final class Services {
         getProviderBytes() {
       java.lang.Object ref = provider_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         provider_ = b;
@@ -3034,7 +3034,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         state_ = s;
@@ -3048,7 +3048,7 @@ public final class Services {
         getStateBytes() {
       java.lang.Object ref = state_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         state_ = b;
@@ -3068,7 +3068,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         oauthToken_ = s;
@@ -3082,7 +3082,7 @@ public final class Services {
         getOauthTokenBytes() {
       java.lang.Object ref = oauthToken_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         oauthToken_ = b;
@@ -3102,7 +3102,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         oauthVerifier_ = s;
@@ -3116,7 +3116,7 @@ public final class Services {
         getOauthVerifierBytes() {
       java.lang.Object ref = oauthVerifier_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         oauthVerifier_ = b;
@@ -3136,7 +3136,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         userName_ = s;
@@ -3150,7 +3150,7 @@ public final class Services {
         getUserNameBytes() {
       java.lang.Object ref = userName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         userName_ = b;
@@ -3170,7 +3170,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         password_ = s;
@@ -3184,7 +3184,7 @@ public final class Services {
         getPasswordBytes() {
       java.lang.Object ref = password_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         password_ = b;
@@ -3213,7 +3213,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         errorView_ = s;
@@ -3227,7 +3227,7 @@ public final class Services {
         getErrorViewBytes() {
       java.lang.Object ref = errorView_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         errorView_ = b;
@@ -3247,7 +3247,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         nonce_ = s;
@@ -3261,7 +3261,7 @@ public final class Services {
         getNonceBytes() {
       java.lang.Object ref = nonce_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         nonce_ = b;
@@ -3281,7 +3281,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         uri_ = s;
@@ -3295,7 +3295,7 @@ public final class Services {
         getUriBytes() {
       java.lang.Object ref = uri_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         uri_ = b;
@@ -3315,7 +3315,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         response_ = s;
@@ -3329,7 +3329,7 @@ public final class Services {
         getResponseBytes() {
       java.lang.Object ref = response_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         response_ = b;
@@ -3349,7 +3349,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         qop_ = s;
@@ -3363,7 +3363,7 @@ public final class Services {
         getQopBytes() {
       java.lang.Object ref = qop_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         qop_ = b;
@@ -3383,7 +3383,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         nc_ = s;
@@ -3397,7 +3397,7 @@ public final class Services {
         getNcBytes() {
       java.lang.Object ref = nc_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         nc_ = b;
@@ -3417,7 +3417,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         cnonce_ = s;
@@ -3431,7 +3431,7 @@ public final class Services {
         getCnonceBytes() {
       java.lang.Object ref = cnonce_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         cnonce_ = b;
@@ -3460,7 +3460,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         accessToken_ = s;
@@ -3474,7 +3474,7 @@ public final class Services {
         getAccessTokenBytes() {
       java.lang.Object ref = accessToken_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         accessToken_ = b;
@@ -3494,7 +3494,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         accessTokenSecret_ = s;
@@ -3508,7 +3508,7 @@ public final class Services {
         getAccessTokenSecretBytes() {
       java.lang.Object ref = accessTokenSecret_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         accessTokenSecret_ = b;
@@ -3528,7 +3528,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         scope_ = s;
@@ -3542,7 +3542,7 @@ public final class Services {
         getScopeBytes() {
       java.lang.Object ref = scope_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         scope_ = b;
@@ -3558,7 +3558,7 @@ public final class Services {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  net.servicestack.androidgrpc.Services.internal_static_Authenticate_MetaEntry_descriptor, 
+                  net.servicestack.androidgrpc.Services.internal_static_Authenticate_MetaEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -4295,7 +4295,7 @@ public final class Services {
           getProviderBytes() {
         java.lang.Object ref = provider_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           provider_ = b;
@@ -4312,7 +4312,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         provider_ = value;
         onChanged();
         return this;
@@ -4321,7 +4321,7 @@ public final class Services {
        * <code>string provider = 1;</code>
        */
       public Builder clearProvider() {
-        
+
         provider_ = getDefaultInstance().getProvider();
         onChanged();
         return this;
@@ -4335,7 +4335,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         provider_ = value;
         onChanged();
         return this;
@@ -4364,7 +4364,7 @@ public final class Services {
           getStateBytes() {
         java.lang.Object ref = state_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           state_ = b;
@@ -4381,7 +4381,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         state_ = value;
         onChanged();
         return this;
@@ -4390,7 +4390,7 @@ public final class Services {
        * <code>string State = 2;</code>
        */
       public Builder clearState() {
-        
+
         state_ = getDefaultInstance().getState();
         onChanged();
         return this;
@@ -4404,7 +4404,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         state_ = value;
         onChanged();
         return this;
@@ -4433,7 +4433,7 @@ public final class Services {
           getOauthTokenBytes() {
         java.lang.Object ref = oauthToken_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           oauthToken_ = b;
@@ -4450,7 +4450,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         oauthToken_ = value;
         onChanged();
         return this;
@@ -4459,7 +4459,7 @@ public final class Services {
        * <code>string oauth_token = 3;</code>
        */
       public Builder clearOauthToken() {
-        
+
         oauthToken_ = getDefaultInstance().getOauthToken();
         onChanged();
         return this;
@@ -4473,7 +4473,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         oauthToken_ = value;
         onChanged();
         return this;
@@ -4502,7 +4502,7 @@ public final class Services {
           getOauthVerifierBytes() {
         java.lang.Object ref = oauthVerifier_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           oauthVerifier_ = b;
@@ -4519,7 +4519,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         oauthVerifier_ = value;
         onChanged();
         return this;
@@ -4528,7 +4528,7 @@ public final class Services {
        * <code>string oauth_verifier = 4;</code>
        */
       public Builder clearOauthVerifier() {
-        
+
         oauthVerifier_ = getDefaultInstance().getOauthVerifier();
         onChanged();
         return this;
@@ -4542,7 +4542,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         oauthVerifier_ = value;
         onChanged();
         return this;
@@ -4571,7 +4571,7 @@ public final class Services {
           getUserNameBytes() {
         java.lang.Object ref = userName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           userName_ = b;
@@ -4588,7 +4588,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         userName_ = value;
         onChanged();
         return this;
@@ -4597,7 +4597,7 @@ public final class Services {
        * <code>string UserName = 5;</code>
        */
       public Builder clearUserName() {
-        
+
         userName_ = getDefaultInstance().getUserName();
         onChanged();
         return this;
@@ -4611,7 +4611,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         userName_ = value;
         onChanged();
         return this;
@@ -4640,7 +4640,7 @@ public final class Services {
           getPasswordBytes() {
         java.lang.Object ref = password_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           password_ = b;
@@ -4657,7 +4657,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         password_ = value;
         onChanged();
         return this;
@@ -4666,7 +4666,7 @@ public final class Services {
        * <code>string Password = 6;</code>
        */
       public Builder clearPassword() {
-        
+
         password_ = getDefaultInstance().getPassword();
         onChanged();
         return this;
@@ -4680,7 +4680,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         password_ = value;
         onChanged();
         return this;
@@ -4697,7 +4697,7 @@ public final class Services {
        * <code>bool RememberMe = 7;</code>
        */
       public Builder setRememberMe(boolean value) {
-        
+
         rememberMe_ = value;
         onChanged();
         return this;
@@ -4706,7 +4706,7 @@ public final class Services {
        * <code>bool RememberMe = 7;</code>
        */
       public Builder clearRememberMe() {
-        
+
         rememberMe_ = false;
         onChanged();
         return this;
@@ -4735,7 +4735,7 @@ public final class Services {
           getErrorViewBytes() {
         java.lang.Object ref = errorView_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           errorView_ = b;
@@ -4752,7 +4752,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         errorView_ = value;
         onChanged();
         return this;
@@ -4761,7 +4761,7 @@ public final class Services {
        * <code>string ErrorView = 9;</code>
        */
       public Builder clearErrorView() {
-        
+
         errorView_ = getDefaultInstance().getErrorView();
         onChanged();
         return this;
@@ -4775,7 +4775,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         errorView_ = value;
         onChanged();
         return this;
@@ -4804,7 +4804,7 @@ public final class Services {
           getNonceBytes() {
         java.lang.Object ref = nonce_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           nonce_ = b;
@@ -4821,7 +4821,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         nonce_ = value;
         onChanged();
         return this;
@@ -4830,7 +4830,7 @@ public final class Services {
        * <code>string nonce = 10;</code>
        */
       public Builder clearNonce() {
-        
+
         nonce_ = getDefaultInstance().getNonce();
         onChanged();
         return this;
@@ -4844,7 +4844,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         nonce_ = value;
         onChanged();
         return this;
@@ -4873,7 +4873,7 @@ public final class Services {
           getUriBytes() {
         java.lang.Object ref = uri_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           uri_ = b;
@@ -4890,7 +4890,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         uri_ = value;
         onChanged();
         return this;
@@ -4899,7 +4899,7 @@ public final class Services {
        * <code>string uri = 11;</code>
        */
       public Builder clearUri() {
-        
+
         uri_ = getDefaultInstance().getUri();
         onChanged();
         return this;
@@ -4913,7 +4913,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         uri_ = value;
         onChanged();
         return this;
@@ -4942,7 +4942,7 @@ public final class Services {
           getResponseBytes() {
         java.lang.Object ref = response_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           response_ = b;
@@ -4959,7 +4959,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         response_ = value;
         onChanged();
         return this;
@@ -4968,7 +4968,7 @@ public final class Services {
        * <code>string response = 12;</code>
        */
       public Builder clearResponse() {
-        
+
         response_ = getDefaultInstance().getResponse();
         onChanged();
         return this;
@@ -4982,7 +4982,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         response_ = value;
         onChanged();
         return this;
@@ -5011,7 +5011,7 @@ public final class Services {
           getQopBytes() {
         java.lang.Object ref = qop_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           qop_ = b;
@@ -5028,7 +5028,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         qop_ = value;
         onChanged();
         return this;
@@ -5037,7 +5037,7 @@ public final class Services {
        * <code>string qop = 13;</code>
        */
       public Builder clearQop() {
-        
+
         qop_ = getDefaultInstance().getQop();
         onChanged();
         return this;
@@ -5051,7 +5051,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         qop_ = value;
         onChanged();
         return this;
@@ -5080,7 +5080,7 @@ public final class Services {
           getNcBytes() {
         java.lang.Object ref = nc_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           nc_ = b;
@@ -5097,7 +5097,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         nc_ = value;
         onChanged();
         return this;
@@ -5106,7 +5106,7 @@ public final class Services {
        * <code>string nc = 14;</code>
        */
       public Builder clearNc() {
-        
+
         nc_ = getDefaultInstance().getNc();
         onChanged();
         return this;
@@ -5120,7 +5120,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         nc_ = value;
         onChanged();
         return this;
@@ -5149,7 +5149,7 @@ public final class Services {
           getCnonceBytes() {
         java.lang.Object ref = cnonce_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           cnonce_ = b;
@@ -5166,7 +5166,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         cnonce_ = value;
         onChanged();
         return this;
@@ -5175,7 +5175,7 @@ public final class Services {
        * <code>string cnonce = 15;</code>
        */
       public Builder clearCnonce() {
-        
+
         cnonce_ = getDefaultInstance().getCnonce();
         onChanged();
         return this;
@@ -5189,7 +5189,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         cnonce_ = value;
         onChanged();
         return this;
@@ -5206,7 +5206,7 @@ public final class Services {
        * <code>bool UseTokenCookie = 16;</code>
        */
       public Builder setUseTokenCookie(boolean value) {
-        
+
         useTokenCookie_ = value;
         onChanged();
         return this;
@@ -5215,7 +5215,7 @@ public final class Services {
        * <code>bool UseTokenCookie = 16;</code>
        */
       public Builder clearUseTokenCookie() {
-        
+
         useTokenCookie_ = false;
         onChanged();
         return this;
@@ -5244,7 +5244,7 @@ public final class Services {
           getAccessTokenBytes() {
         java.lang.Object ref = accessToken_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           accessToken_ = b;
@@ -5261,7 +5261,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         accessToken_ = value;
         onChanged();
         return this;
@@ -5270,7 +5270,7 @@ public final class Services {
        * <code>string AccessToken = 17;</code>
        */
       public Builder clearAccessToken() {
-        
+
         accessToken_ = getDefaultInstance().getAccessToken();
         onChanged();
         return this;
@@ -5284,7 +5284,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         accessToken_ = value;
         onChanged();
         return this;
@@ -5313,7 +5313,7 @@ public final class Services {
           getAccessTokenSecretBytes() {
         java.lang.Object ref = accessTokenSecret_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           accessTokenSecret_ = b;
@@ -5330,7 +5330,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         accessTokenSecret_ = value;
         onChanged();
         return this;
@@ -5339,7 +5339,7 @@ public final class Services {
        * <code>string AccessTokenSecret = 18;</code>
        */
       public Builder clearAccessTokenSecret() {
-        
+
         accessTokenSecret_ = getDefaultInstance().getAccessTokenSecret();
         onChanged();
         return this;
@@ -5353,7 +5353,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         accessTokenSecret_ = value;
         onChanged();
         return this;
@@ -5382,7 +5382,7 @@ public final class Services {
           getScopeBytes() {
         java.lang.Object ref = scope_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           scope_ = b;
@@ -5399,7 +5399,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         scope_ = value;
         onChanged();
         return this;
@@ -5408,7 +5408,7 @@ public final class Services {
        * <code>string scope = 19;</code>
        */
       public Builder clearScope() {
-        
+
         scope_ = getDefaultInstance().getScope();
         onChanged();
         return this;
@@ -5422,7 +5422,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         scope_ = value;
         onChanged();
         return this;
@@ -5980,7 +5980,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         userId_ = s;
@@ -5994,7 +5994,7 @@ public final class Services {
         getUserIdBytes() {
       java.lang.Object ref = userId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         userId_ = b;
@@ -6014,7 +6014,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         sessionId_ = s;
@@ -6028,7 +6028,7 @@ public final class Services {
         getSessionIdBytes() {
       java.lang.Object ref = sessionId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         sessionId_ = b;
@@ -6048,7 +6048,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         userName_ = s;
@@ -6062,7 +6062,7 @@ public final class Services {
         getUserNameBytes() {
       java.lang.Object ref = userName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         userName_ = b;
@@ -6082,7 +6082,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         displayName_ = s;
@@ -6096,7 +6096,7 @@ public final class Services {
         getDisplayNameBytes() {
       java.lang.Object ref = displayName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         displayName_ = b;
@@ -6116,7 +6116,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         referrerUrl_ = s;
@@ -6130,7 +6130,7 @@ public final class Services {
         getReferrerUrlBytes() {
       java.lang.Object ref = referrerUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         referrerUrl_ = b;
@@ -6150,7 +6150,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         bearerToken_ = s;
@@ -6164,7 +6164,7 @@ public final class Services {
         getBearerTokenBytes() {
       java.lang.Object ref = bearerToken_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         bearerToken_ = b;
@@ -6184,7 +6184,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         refreshToken_ = s;
@@ -6198,7 +6198,7 @@ public final class Services {
         getRefreshTokenBytes() {
       java.lang.Object ref = refreshToken_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         refreshToken_ = b;
@@ -6218,7 +6218,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         profileUrl_ = s;
@@ -6232,7 +6232,7 @@ public final class Services {
         getProfileUrlBytes() {
       java.lang.Object ref = profileUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         profileUrl_ = b;
@@ -6327,7 +6327,7 @@ public final class Services {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  net.servicestack.androidgrpc.Services.internal_static_AuthenticateResponse_MetaEntry_descriptor, 
+                  net.servicestack.androidgrpc.Services.internal_static_AuthenticateResponse_MetaEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -6990,7 +6990,7 @@ public final class Services {
           getUserIdBytes() {
         java.lang.Object ref = userId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           userId_ = b;
@@ -7007,7 +7007,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         userId_ = value;
         onChanged();
         return this;
@@ -7016,7 +7016,7 @@ public final class Services {
        * <code>string UserId = 1;</code>
        */
       public Builder clearUserId() {
-        
+
         userId_ = getDefaultInstance().getUserId();
         onChanged();
         return this;
@@ -7030,7 +7030,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         userId_ = value;
         onChanged();
         return this;
@@ -7059,7 +7059,7 @@ public final class Services {
           getSessionIdBytes() {
         java.lang.Object ref = sessionId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           sessionId_ = b;
@@ -7076,7 +7076,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         sessionId_ = value;
         onChanged();
         return this;
@@ -7085,7 +7085,7 @@ public final class Services {
        * <code>string SessionId = 2;</code>
        */
       public Builder clearSessionId() {
-        
+
         sessionId_ = getDefaultInstance().getSessionId();
         onChanged();
         return this;
@@ -7099,7 +7099,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         sessionId_ = value;
         onChanged();
         return this;
@@ -7128,7 +7128,7 @@ public final class Services {
           getUserNameBytes() {
         java.lang.Object ref = userName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           userName_ = b;
@@ -7145,7 +7145,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         userName_ = value;
         onChanged();
         return this;
@@ -7154,7 +7154,7 @@ public final class Services {
        * <code>string UserName = 3;</code>
        */
       public Builder clearUserName() {
-        
+
         userName_ = getDefaultInstance().getUserName();
         onChanged();
         return this;
@@ -7168,7 +7168,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         userName_ = value;
         onChanged();
         return this;
@@ -7197,7 +7197,7 @@ public final class Services {
           getDisplayNameBytes() {
         java.lang.Object ref = displayName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           displayName_ = b;
@@ -7214,7 +7214,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         displayName_ = value;
         onChanged();
         return this;
@@ -7223,7 +7223,7 @@ public final class Services {
        * <code>string DisplayName = 4;</code>
        */
       public Builder clearDisplayName() {
-        
+
         displayName_ = getDefaultInstance().getDisplayName();
         onChanged();
         return this;
@@ -7237,7 +7237,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         displayName_ = value;
         onChanged();
         return this;
@@ -7266,7 +7266,7 @@ public final class Services {
           getReferrerUrlBytes() {
         java.lang.Object ref = referrerUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           referrerUrl_ = b;
@@ -7283,7 +7283,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         referrerUrl_ = value;
         onChanged();
         return this;
@@ -7292,7 +7292,7 @@ public final class Services {
        * <code>string ReferrerUrl = 5;</code>
        */
       public Builder clearReferrerUrl() {
-        
+
         referrerUrl_ = getDefaultInstance().getReferrerUrl();
         onChanged();
         return this;
@@ -7306,7 +7306,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         referrerUrl_ = value;
         onChanged();
         return this;
@@ -7335,7 +7335,7 @@ public final class Services {
           getBearerTokenBytes() {
         java.lang.Object ref = bearerToken_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           bearerToken_ = b;
@@ -7352,7 +7352,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         bearerToken_ = value;
         onChanged();
         return this;
@@ -7361,7 +7361,7 @@ public final class Services {
        * <code>string BearerToken = 6;</code>
        */
       public Builder clearBearerToken() {
-        
+
         bearerToken_ = getDefaultInstance().getBearerToken();
         onChanged();
         return this;
@@ -7375,7 +7375,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         bearerToken_ = value;
         onChanged();
         return this;
@@ -7404,7 +7404,7 @@ public final class Services {
           getRefreshTokenBytes() {
         java.lang.Object ref = refreshToken_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           refreshToken_ = b;
@@ -7421,7 +7421,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         refreshToken_ = value;
         onChanged();
         return this;
@@ -7430,7 +7430,7 @@ public final class Services {
        * <code>string RefreshToken = 7;</code>
        */
       public Builder clearRefreshToken() {
-        
+
         refreshToken_ = getDefaultInstance().getRefreshToken();
         onChanged();
         return this;
@@ -7444,7 +7444,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         refreshToken_ = value;
         onChanged();
         return this;
@@ -7473,7 +7473,7 @@ public final class Services {
           getProfileUrlBytes() {
         java.lang.Object ref = profileUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           profileUrl_ = b;
@@ -7490,7 +7490,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         profileUrl_ = value;
         onChanged();
         return this;
@@ -7499,7 +7499,7 @@ public final class Services {
        * <code>string ProfileUrl = 8;</code>
        */
       public Builder clearProfileUrl() {
-        
+
         profileUrl_ = getDefaultInstance().getProfileUrl();
         onChanged();
         return this;
@@ -7513,7 +7513,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         profileUrl_ = value;
         onChanged();
         return this;
@@ -7792,7 +7792,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 11;</code>
        */
       public net.servicestack.androidgrpc.Services.ResponseStatus.Builder getResponseStatusBuilder() {
-        
+
         onChanged();
         return getResponseStatusFieldBuilder().getBuilder();
       }
@@ -7811,7 +7811,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder> 
+          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder>
           getResponseStatusFieldBuilder() {
         if (responseStatusBuilder_ == null) {
           responseStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -8165,7 +8165,7 @@ public final class Services {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  net.servicestack.androidgrpc.Services.internal_static_ConvertSessionToToken_MetaEntry_descriptor, 
+                  net.servicestack.androidgrpc.Services.internal_static_ConvertSessionToToken_MetaEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -8600,7 +8600,7 @@ public final class Services {
        * <code>bool PreserveSession = 1;</code>
        */
       public Builder setPreserveSession(boolean value) {
-        
+
         preserveSession_ = value;
         onChanged();
         return this;
@@ -8609,7 +8609,7 @@ public final class Services {
        * <code>bool PreserveSession = 1;</code>
        */
       public Builder clearPreserveSession() {
-        
+
         preserveSession_ = false;
         onChanged();
         return this;
@@ -8997,7 +8997,7 @@ public final class Services {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  net.servicestack.androidgrpc.Services.internal_static_ConvertSessionToTokenResponse_MetaEntry_descriptor, 
+                  net.servicestack.androidgrpc.Services.internal_static_ConvertSessionToTokenResponse_MetaEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -9077,7 +9077,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         accessToken_ = s;
@@ -9091,7 +9091,7 @@ public final class Services {
         getAccessTokenBytes() {
       java.lang.Object ref = accessToken_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         accessToken_ = b;
@@ -9111,7 +9111,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         refreshToken_ = s;
@@ -9125,7 +9125,7 @@ public final class Services {
         getRefreshTokenBytes() {
       java.lang.Object ref = refreshToken_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         refreshToken_ = b;
@@ -9702,7 +9702,7 @@ public final class Services {
           getAccessTokenBytes() {
         java.lang.Object ref = accessToken_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           accessToken_ = b;
@@ -9719,7 +9719,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         accessToken_ = value;
         onChanged();
         return this;
@@ -9728,7 +9728,7 @@ public final class Services {
        * <code>string AccessToken = 2;</code>
        */
       public Builder clearAccessToken() {
-        
+
         accessToken_ = getDefaultInstance().getAccessToken();
         onChanged();
         return this;
@@ -9742,7 +9742,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         accessToken_ = value;
         onChanged();
         return this;
@@ -9771,7 +9771,7 @@ public final class Services {
           getRefreshTokenBytes() {
         java.lang.Object ref = refreshToken_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           refreshToken_ = b;
@@ -9788,7 +9788,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         refreshToken_ = value;
         onChanged();
         return this;
@@ -9797,7 +9797,7 @@ public final class Services {
        * <code>string RefreshToken = 3;</code>
        */
       public Builder clearRefreshToken() {
-        
+
         refreshToken_ = getDefaultInstance().getRefreshToken();
         onChanged();
         return this;
@@ -9811,7 +9811,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         refreshToken_ = value;
         onChanged();
         return this;
@@ -9902,7 +9902,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 4;</code>
        */
       public net.servicestack.androidgrpc.Services.ResponseStatus.Builder getResponseStatusBuilder() {
-        
+
         onChanged();
         return getResponseStatusFieldBuilder().getBuilder();
       }
@@ -9921,7 +9921,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder> 
+          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder>
           getResponseStatusFieldBuilder() {
         if (responseStatusBuilder_ == null) {
           responseStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -10104,7 +10104,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         title_ = s;
@@ -10118,7 +10118,7 @@ public final class Services {
         getTitleBytes() {
       java.lang.Object ref = title_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         title_ = b;
@@ -10479,7 +10479,7 @@ public final class Services {
           getTitleBytes() {
         java.lang.Object ref = title_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           title_ = b;
@@ -10496,7 +10496,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         title_ = value;
         onChanged();
         return this;
@@ -10505,7 +10505,7 @@ public final class Services {
        * <code>string Title = 1;</code>
        */
       public Builder clearTitle() {
-        
+
         title_ = getDefaultInstance().getTitle();
         onChanged();
         return this;
@@ -10519,7 +10519,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         title_ = value;
         onChanged();
         return this;
@@ -10536,7 +10536,7 @@ public final class Services {
        * <code>int32 Order = 2;</code>
        */
       public Builder setOrder(int value) {
-        
+
         order_ = value;
         onChanged();
         return this;
@@ -10545,7 +10545,7 @@ public final class Services {
        * <code>int32 Order = 2;</code>
        */
       public Builder clearOrder() {
-        
+
         order_ = 0;
         onChanged();
         return this;
@@ -11208,7 +11208,7 @@ public final class Services {
        * <code>.Todo Result = 1;</code>
        */
       public net.servicestack.androidgrpc.Services.Todo.Builder getResultBuilder() {
-        
+
         onChanged();
         return getResultFieldBuilder().getBuilder();
       }
@@ -11227,7 +11227,7 @@ public final class Services {
        * <code>.Todo Result = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          net.servicestack.androidgrpc.Services.Todo, net.servicestack.androidgrpc.Services.Todo.Builder, net.servicestack.androidgrpc.Services.TodoOrBuilder> 
+          net.servicestack.androidgrpc.Services.Todo, net.servicestack.androidgrpc.Services.Todo.Builder, net.servicestack.androidgrpc.Services.TodoOrBuilder>
           getResultFieldBuilder() {
         if (resultBuilder_ == null) {
           resultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -11325,7 +11325,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 2;</code>
        */
       public net.servicestack.androidgrpc.Services.ResponseStatus.Builder getResponseStatusBuilder() {
-        
+
         onChanged();
         return getResponseStatusFieldBuilder().getBuilder();
       }
@@ -11344,7 +11344,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder> 
+          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder>
           getResponseStatusFieldBuilder() {
         if (responseStatusBuilder_ == null) {
           responseStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -11823,7 +11823,7 @@ public final class Services {
        * <code>int64 Id = 1;</code>
        */
       public Builder setId(long value) {
-        
+
         id_ = value;
         onChanged();
         return this;
@@ -11832,7 +11832,7 @@ public final class Services {
        * <code>int64 Id = 1;</code>
        */
       public Builder clearId() {
-        
+
         id_ = 0L;
         onChanged();
         return this;
@@ -13001,7 +13001,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 1;</code>
        */
       public net.servicestack.androidgrpc.Services.ResponseStatus.Builder getResponseStatusBuilder() {
-        
+
         onChanged();
         return getResponseStatusFieldBuilder().getBuilder();
       }
@@ -13020,7 +13020,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder> 
+          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder>
           getResponseStatusFieldBuilder() {
         if (responseStatusBuilder_ == null) {
           responseStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -13257,7 +13257,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         name_ = s;
@@ -13271,7 +13271,7 @@ public final class Services {
         getNameBytes() {
       java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         name_ = b;
@@ -13291,7 +13291,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         type_ = s;
@@ -13305,7 +13305,7 @@ public final class Services {
         getTypeBytes() {
       java.lang.Object ref = type_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         type_ = b;
@@ -13760,7 +13760,7 @@ public final class Services {
           getNameBytes() {
         java.lang.Object ref = name_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           name_ = b;
@@ -13777,7 +13777,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         name_ = value;
         onChanged();
         return this;
@@ -13786,7 +13786,7 @@ public final class Services {
        * <code>string Name = 1;</code>
        */
       public Builder clearName() {
-        
+
         name_ = getDefaultInstance().getName();
         onChanged();
         return this;
@@ -13800,7 +13800,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         name_ = value;
         onChanged();
         return this;
@@ -13829,7 +13829,7 @@ public final class Services {
           getTypeBytes() {
         java.lang.Object ref = type_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           type_ = b;
@@ -13846,7 +13846,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         type_ = value;
         onChanged();
         return this;
@@ -13855,7 +13855,7 @@ public final class Services {
        * <code>string Type = 2;</code>
        */
       public Builder clearType() {
-        
+
         type_ = getDefaultInstance().getType();
         onChanged();
         return this;
@@ -13869,7 +13869,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         type_ = value;
         onChanged();
         return this;
@@ -13886,7 +13886,7 @@ public final class Services {
        * <code>int32 Length = 3;</code>
        */
       public Builder setLength(int value) {
-        
+
         length_ = value;
         onChanged();
         return this;
@@ -13895,7 +13895,7 @@ public final class Services {
        * <code>int32 Length = 3;</code>
        */
       public Builder clearLength() {
-        
+
         length_ = 0;
         onChanged();
         return this;
@@ -13915,7 +13915,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         body_ = value;
         onChanged();
         return this;
@@ -13924,7 +13924,7 @@ public final class Services {
        * <code>bytes Body = 4;</code>
        */
       public Builder clearBody() {
-        
+
         body_ = getDefaultInstance().getBody();
         onChanged();
         return this;
@@ -14015,7 +14015,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 5;</code>
        */
       public net.servicestack.androidgrpc.Services.ResponseStatus.Builder getResponseStatusBuilder() {
-        
+
         onChanged();
         return getResponseStatusFieldBuilder().getBuilder();
       }
@@ -14034,7 +14034,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder> 
+          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder>
           getResponseStatusFieldBuilder() {
         if (responseStatusBuilder_ == null) {
           responseStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -14277,7 +14277,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         refreshToken_ = s;
@@ -14291,7 +14291,7 @@ public final class Services {
         getRefreshTokenBytes() {
       java.lang.Object ref = refreshToken_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         refreshToken_ = b;
@@ -14316,7 +14316,7 @@ public final class Services {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  net.servicestack.androidgrpc.Services.internal_static_GetAccessToken_MetaEntry_descriptor, 
+                  net.servicestack.androidgrpc.Services.internal_static_GetAccessToken_MetaEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -14780,7 +14780,7 @@ public final class Services {
           getRefreshTokenBytes() {
         java.lang.Object ref = refreshToken_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           refreshToken_ = b;
@@ -14797,7 +14797,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         refreshToken_ = value;
         onChanged();
         return this;
@@ -14806,7 +14806,7 @@ public final class Services {
        * <code>string RefreshToken = 1;</code>
        */
       public Builder clearRefreshToken() {
-        
+
         refreshToken_ = getDefaultInstance().getRefreshToken();
         onChanged();
         return this;
@@ -14820,7 +14820,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         refreshToken_ = value;
         onChanged();
         return this;
@@ -14837,7 +14837,7 @@ public final class Services {
        * <code>bool UseTokenCookie = 2;</code>
        */
       public Builder setUseTokenCookie(boolean value) {
-        
+
         useTokenCookie_ = value;
         onChanged();
         return this;
@@ -14846,7 +14846,7 @@ public final class Services {
        * <code>bool UseTokenCookie = 2;</code>
        */
       public Builder clearUseTokenCookie() {
-        
+
         useTokenCookie_ = false;
         onChanged();
         return this;
@@ -15221,7 +15221,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         accessToken_ = s;
@@ -15235,7 +15235,7 @@ public final class Services {
         getAccessTokenBytes() {
       java.lang.Object ref = accessToken_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         accessToken_ = b;
@@ -15251,7 +15251,7 @@ public final class Services {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  net.servicestack.androidgrpc.Services.internal_static_GetAccessTokenResponse_MetaEntry_descriptor, 
+                  net.servicestack.androidgrpc.Services.internal_static_GetAccessTokenResponse_MetaEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -15748,7 +15748,7 @@ public final class Services {
           getAccessTokenBytes() {
         java.lang.Object ref = accessToken_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           accessToken_ = b;
@@ -15765,7 +15765,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         accessToken_ = value;
         onChanged();
         return this;
@@ -15774,7 +15774,7 @@ public final class Services {
        * <code>string AccessToken = 1;</code>
        */
       public Builder clearAccessToken() {
-        
+
         accessToken_ = getDefaultInstance().getAccessToken();
         onChanged();
         return this;
@@ -15788,7 +15788,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         accessToken_ = value;
         onChanged();
         return this;
@@ -16002,7 +16002,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 3;</code>
        */
       public net.servicestack.androidgrpc.Services.ResponseStatus.Builder getResponseStatusBuilder() {
-        
+
         onChanged();
         return getResponseStatusFieldBuilder().getBuilder();
       }
@@ -16021,7 +16021,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder> 
+          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder>
           getResponseStatusFieldBuilder() {
         if (responseStatusBuilder_ == null) {
           responseStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -16500,7 +16500,7 @@ public final class Services {
        * <code>int64 Id = 1;</code>
        */
       public Builder setId(long value) {
-        
+
         id_ = value;
         onChanged();
         return this;
@@ -16509,7 +16509,7 @@ public final class Services {
        * <code>int64 Id = 1;</code>
        */
       public Builder clearId() {
-        
+
         id_ = 0L;
         onChanged();
         return this;
@@ -17172,7 +17172,7 @@ public final class Services {
        * <code>.Todo Result = 1;</code>
        */
       public net.servicestack.androidgrpc.Services.Todo.Builder getResultBuilder() {
-        
+
         onChanged();
         return getResultFieldBuilder().getBuilder();
       }
@@ -17191,7 +17191,7 @@ public final class Services {
        * <code>.Todo Result = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          net.servicestack.androidgrpc.Services.Todo, net.servicestack.androidgrpc.Services.Todo.Builder, net.servicestack.androidgrpc.Services.TodoOrBuilder> 
+          net.servicestack.androidgrpc.Services.Todo, net.servicestack.androidgrpc.Services.Todo.Builder, net.servicestack.androidgrpc.Services.TodoOrBuilder>
           getResultFieldBuilder() {
         if (resultBuilder_ == null) {
           resultBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -17289,7 +17289,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 2;</code>
        */
       public net.servicestack.androidgrpc.Services.ResponseStatus.Builder getResponseStatusBuilder() {
-        
+
         onChanged();
         return getResponseStatusFieldBuilder().getBuilder();
       }
@@ -17308,7 +17308,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder> 
+          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder>
           getResponseStatusFieldBuilder() {
         if (responseStatusBuilder_ == null) {
           responseStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -17798,7 +17798,7 @@ public final class Services {
     /**
      * <code>repeated .Todo Results = 1;</code>
      */
-    java.util.List<net.servicestack.androidgrpc.Services.Todo> 
+    java.util.List<net.servicestack.androidgrpc.Services.Todo>
         getResultsList();
     /**
      * <code>repeated .Todo Results = 1;</code>
@@ -17811,7 +17811,7 @@ public final class Services {
     /**
      * <code>repeated .Todo Results = 1;</code>
      */
-    java.util.List<? extends net.servicestack.androidgrpc.Services.TodoOrBuilder> 
+    java.util.List<? extends net.servicestack.androidgrpc.Services.TodoOrBuilder>
         getResultsOrBuilderList();
     /**
      * <code>repeated .Todo Results = 1;</code>
@@ -17947,7 +17947,7 @@ public final class Services {
     /**
      * <code>repeated .Todo Results = 1;</code>
      */
-    public java.util.List<? extends net.servicestack.androidgrpc.Services.TodoOrBuilder> 
+    public java.util.List<? extends net.servicestack.androidgrpc.Services.TodoOrBuilder>
         getResultsOrBuilderList() {
       return results_;
     }
@@ -18323,7 +18323,7 @@ public final class Services {
               resultsBuilder_ = null;
               results_ = other.results_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              resultsBuilder_ = 
+              resultsBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getResultsFieldBuilder() : null;
             } else {
@@ -18559,7 +18559,7 @@ public final class Services {
       /**
        * <code>repeated .Todo Results = 1;</code>
        */
-      public java.util.List<? extends net.servicestack.androidgrpc.Services.TodoOrBuilder> 
+      public java.util.List<? extends net.servicestack.androidgrpc.Services.TodoOrBuilder>
            getResultsOrBuilderList() {
         if (resultsBuilder_ != null) {
           return resultsBuilder_.getMessageOrBuilderList();
@@ -18585,12 +18585,12 @@ public final class Services {
       /**
        * <code>repeated .Todo Results = 1;</code>
        */
-      public java.util.List<net.servicestack.androidgrpc.Services.Todo.Builder> 
+      public java.util.List<net.servicestack.androidgrpc.Services.Todo.Builder>
            getResultsBuilderList() {
         return getResultsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          net.servicestack.androidgrpc.Services.Todo, net.servicestack.androidgrpc.Services.Todo.Builder, net.servicestack.androidgrpc.Services.TodoOrBuilder> 
+          net.servicestack.androidgrpc.Services.Todo, net.servicestack.androidgrpc.Services.Todo.Builder, net.servicestack.androidgrpc.Services.TodoOrBuilder>
           getResultsFieldBuilder() {
         if (resultsBuilder_ == null) {
           resultsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -18689,7 +18689,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 2;</code>
        */
       public net.servicestack.androidgrpc.Services.ResponseStatus.Builder getResponseStatusBuilder() {
-        
+
         onChanged();
         return getResponseStatusFieldBuilder().getBuilder();
       }
@@ -18708,7 +18708,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder> 
+          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder>
           getResponseStatusFieldBuilder() {
         if (responseStatusBuilder_ == null) {
           responseStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -18881,7 +18881,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         name_ = s;
@@ -18895,7 +18895,7 @@ public final class Services {
         getNameBytes() {
       java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         name_ = b;
@@ -19230,7 +19230,7 @@ public final class Services {
           getNameBytes() {
         java.lang.Object ref = name_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           name_ = b;
@@ -19247,7 +19247,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         name_ = value;
         onChanged();
         return this;
@@ -19256,7 +19256,7 @@ public final class Services {
        * <code>string Name = 1;</code>
        */
       public Builder clearName() {
-        
+
         name_ = getDefaultInstance().getName();
         onChanged();
         return this;
@@ -19270,7 +19270,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         name_ = value;
         onChanged();
         return this;
@@ -19462,7 +19462,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         result_ = s;
@@ -19476,7 +19476,7 @@ public final class Services {
         getResultBytes() {
       java.lang.Object ref = result_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         result_ = b;
@@ -19862,7 +19862,7 @@ public final class Services {
           getResultBytes() {
         java.lang.Object ref = result_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           result_ = b;
@@ -19879,7 +19879,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         result_ = value;
         onChanged();
         return this;
@@ -19888,7 +19888,7 @@ public final class Services {
        * <code>string Result = 1;</code>
        */
       public Builder clearResult() {
-        
+
         result_ = getDefaultInstance().getResult();
         onChanged();
         return this;
@@ -19902,7 +19902,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         result_ = value;
         onChanged();
         return this;
@@ -19993,7 +19993,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 2;</code>
        */
       public net.servicestack.androidgrpc.Services.ResponseStatus.Builder getResponseStatusBuilder() {
-        
+
         onChanged();
         return getResponseStatusFieldBuilder().getBuilder();
       }
@@ -20012,7 +20012,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder> 
+          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder>
           getResponseStatusFieldBuilder() {
         if (responseStatusBuilder_ == null) {
           responseStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -20185,7 +20185,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         name_ = s;
@@ -20199,7 +20199,7 @@ public final class Services {
         getNameBytes() {
       java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         name_ = b;
@@ -20534,7 +20534,7 @@ public final class Services {
           getNameBytes() {
         java.lang.Object ref = name_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           name_ = b;
@@ -20551,7 +20551,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         name_ = value;
         onChanged();
         return this;
@@ -20560,7 +20560,7 @@ public final class Services {
        * <code>string Name = 1;</code>
        */
       public Builder clearName() {
-        
+
         name_ = getDefaultInstance().getName();
         onChanged();
         return this;
@@ -20574,7 +20574,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         name_ = value;
         onChanged();
         return this;
@@ -20929,7 +20929,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         userName_ = s;
@@ -20943,7 +20943,7 @@ public final class Services {
         getUserNameBytes() {
       java.lang.Object ref = userName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         userName_ = b;
@@ -20963,7 +20963,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         firstName_ = s;
@@ -20977,7 +20977,7 @@ public final class Services {
         getFirstNameBytes() {
       java.lang.Object ref = firstName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         firstName_ = b;
@@ -20997,7 +20997,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         lastName_ = s;
@@ -21011,7 +21011,7 @@ public final class Services {
         getLastNameBytes() {
       java.lang.Object ref = lastName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         lastName_ = b;
@@ -21031,7 +21031,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         displayName_ = s;
@@ -21045,7 +21045,7 @@ public final class Services {
         getDisplayNameBytes() {
       java.lang.Object ref = displayName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         displayName_ = b;
@@ -21065,7 +21065,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         email_ = s;
@@ -21079,7 +21079,7 @@ public final class Services {
         getEmailBytes() {
       java.lang.Object ref = email_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         email_ = b;
@@ -21099,7 +21099,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         password_ = s;
@@ -21113,7 +21113,7 @@ public final class Services {
         getPasswordBytes() {
       java.lang.Object ref = password_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         password_ = b;
@@ -21133,7 +21133,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         confirmPassword_ = s;
@@ -21147,7 +21147,7 @@ public final class Services {
         getConfirmPasswordBytes() {
       java.lang.Object ref = confirmPassword_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         confirmPassword_ = b;
@@ -21176,7 +21176,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         errorView_ = s;
@@ -21190,7 +21190,7 @@ public final class Services {
         getErrorViewBytes() {
       java.lang.Object ref = errorView_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         errorView_ = b;
@@ -21206,7 +21206,7 @@ public final class Services {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  net.servicestack.androidgrpc.Services.internal_static_Register_MetaEntry_descriptor, 
+                  net.servicestack.androidgrpc.Services.internal_static_Register_MetaEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -21789,7 +21789,7 @@ public final class Services {
           getUserNameBytes() {
         java.lang.Object ref = userName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           userName_ = b;
@@ -21806,7 +21806,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         userName_ = value;
         onChanged();
         return this;
@@ -21815,7 +21815,7 @@ public final class Services {
        * <code>string UserName = 1;</code>
        */
       public Builder clearUserName() {
-        
+
         userName_ = getDefaultInstance().getUserName();
         onChanged();
         return this;
@@ -21829,7 +21829,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         userName_ = value;
         onChanged();
         return this;
@@ -21858,7 +21858,7 @@ public final class Services {
           getFirstNameBytes() {
         java.lang.Object ref = firstName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           firstName_ = b;
@@ -21875,7 +21875,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         firstName_ = value;
         onChanged();
         return this;
@@ -21884,7 +21884,7 @@ public final class Services {
        * <code>string FirstName = 2;</code>
        */
       public Builder clearFirstName() {
-        
+
         firstName_ = getDefaultInstance().getFirstName();
         onChanged();
         return this;
@@ -21898,7 +21898,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         firstName_ = value;
         onChanged();
         return this;
@@ -21927,7 +21927,7 @@ public final class Services {
           getLastNameBytes() {
         java.lang.Object ref = lastName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           lastName_ = b;
@@ -21944,7 +21944,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         lastName_ = value;
         onChanged();
         return this;
@@ -21953,7 +21953,7 @@ public final class Services {
        * <code>string LastName = 3;</code>
        */
       public Builder clearLastName() {
-        
+
         lastName_ = getDefaultInstance().getLastName();
         onChanged();
         return this;
@@ -21967,7 +21967,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         lastName_ = value;
         onChanged();
         return this;
@@ -21996,7 +21996,7 @@ public final class Services {
           getDisplayNameBytes() {
         java.lang.Object ref = displayName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           displayName_ = b;
@@ -22013,7 +22013,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         displayName_ = value;
         onChanged();
         return this;
@@ -22022,7 +22022,7 @@ public final class Services {
        * <code>string DisplayName = 4;</code>
        */
       public Builder clearDisplayName() {
-        
+
         displayName_ = getDefaultInstance().getDisplayName();
         onChanged();
         return this;
@@ -22036,7 +22036,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         displayName_ = value;
         onChanged();
         return this;
@@ -22065,7 +22065,7 @@ public final class Services {
           getEmailBytes() {
         java.lang.Object ref = email_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           email_ = b;
@@ -22082,7 +22082,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         email_ = value;
         onChanged();
         return this;
@@ -22091,7 +22091,7 @@ public final class Services {
        * <code>string Email = 5;</code>
        */
       public Builder clearEmail() {
-        
+
         email_ = getDefaultInstance().getEmail();
         onChanged();
         return this;
@@ -22105,7 +22105,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         email_ = value;
         onChanged();
         return this;
@@ -22134,7 +22134,7 @@ public final class Services {
           getPasswordBytes() {
         java.lang.Object ref = password_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           password_ = b;
@@ -22151,7 +22151,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         password_ = value;
         onChanged();
         return this;
@@ -22160,7 +22160,7 @@ public final class Services {
        * <code>string Password = 6;</code>
        */
       public Builder clearPassword() {
-        
+
         password_ = getDefaultInstance().getPassword();
         onChanged();
         return this;
@@ -22174,7 +22174,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         password_ = value;
         onChanged();
         return this;
@@ -22203,7 +22203,7 @@ public final class Services {
           getConfirmPasswordBytes() {
         java.lang.Object ref = confirmPassword_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           confirmPassword_ = b;
@@ -22220,7 +22220,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         confirmPassword_ = value;
         onChanged();
         return this;
@@ -22229,7 +22229,7 @@ public final class Services {
        * <code>string ConfirmPassword = 7;</code>
        */
       public Builder clearConfirmPassword() {
-        
+
         confirmPassword_ = getDefaultInstance().getConfirmPassword();
         onChanged();
         return this;
@@ -22243,7 +22243,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         confirmPassword_ = value;
         onChanged();
         return this;
@@ -22260,7 +22260,7 @@ public final class Services {
        * <code>bool AutoLogin = 8;</code>
        */
       public Builder setAutoLogin(boolean value) {
-        
+
         autoLogin_ = value;
         onChanged();
         return this;
@@ -22269,7 +22269,7 @@ public final class Services {
        * <code>bool AutoLogin = 8;</code>
        */
       public Builder clearAutoLogin() {
-        
+
         autoLogin_ = false;
         onChanged();
         return this;
@@ -22298,7 +22298,7 @@ public final class Services {
           getErrorViewBytes() {
         java.lang.Object ref = errorView_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           errorView_ = b;
@@ -22315,7 +22315,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         errorView_ = value;
         onChanged();
         return this;
@@ -22324,7 +22324,7 @@ public final class Services {
        * <code>string ErrorView = 10;</code>
        */
       public Builder clearErrorView() {
-        
+
         errorView_ = getDefaultInstance().getErrorView();
         onChanged();
         return this;
@@ -22338,7 +22338,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         errorView_ = value;
         onChanged();
         return this;
@@ -22798,7 +22798,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         userId_ = s;
@@ -22812,7 +22812,7 @@ public final class Services {
         getUserIdBytes() {
       java.lang.Object ref = userId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         userId_ = b;
@@ -22832,7 +22832,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         sessionId_ = s;
@@ -22846,7 +22846,7 @@ public final class Services {
         getSessionIdBytes() {
       java.lang.Object ref = sessionId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         sessionId_ = b;
@@ -22866,7 +22866,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         userName_ = s;
@@ -22880,7 +22880,7 @@ public final class Services {
         getUserNameBytes() {
       java.lang.Object ref = userName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         userName_ = b;
@@ -22900,7 +22900,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         referrerUrl_ = s;
@@ -22914,7 +22914,7 @@ public final class Services {
         getReferrerUrlBytes() {
       java.lang.Object ref = referrerUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         referrerUrl_ = b;
@@ -22934,7 +22934,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         bearerToken_ = s;
@@ -22948,7 +22948,7 @@ public final class Services {
         getBearerTokenBytes() {
       java.lang.Object ref = bearerToken_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         bearerToken_ = b;
@@ -22968,7 +22968,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         refreshToken_ = s;
@@ -22982,7 +22982,7 @@ public final class Services {
         getRefreshTokenBytes() {
       java.lang.Object ref = refreshToken_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         refreshToken_ = b;
@@ -23019,7 +23019,7 @@ public final class Services {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  net.servicestack.androidgrpc.Services.internal_static_RegisterResponse_MetaEntry_descriptor, 
+                  net.servicestack.androidgrpc.Services.internal_static_RegisterResponse_MetaEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -23580,7 +23580,7 @@ public final class Services {
           getUserIdBytes() {
         java.lang.Object ref = userId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           userId_ = b;
@@ -23597,7 +23597,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         userId_ = value;
         onChanged();
         return this;
@@ -23606,7 +23606,7 @@ public final class Services {
        * <code>string UserId = 1;</code>
        */
       public Builder clearUserId() {
-        
+
         userId_ = getDefaultInstance().getUserId();
         onChanged();
         return this;
@@ -23620,7 +23620,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         userId_ = value;
         onChanged();
         return this;
@@ -23649,7 +23649,7 @@ public final class Services {
           getSessionIdBytes() {
         java.lang.Object ref = sessionId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           sessionId_ = b;
@@ -23666,7 +23666,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         sessionId_ = value;
         onChanged();
         return this;
@@ -23675,7 +23675,7 @@ public final class Services {
        * <code>string SessionId = 2;</code>
        */
       public Builder clearSessionId() {
-        
+
         sessionId_ = getDefaultInstance().getSessionId();
         onChanged();
         return this;
@@ -23689,7 +23689,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         sessionId_ = value;
         onChanged();
         return this;
@@ -23718,7 +23718,7 @@ public final class Services {
           getUserNameBytes() {
         java.lang.Object ref = userName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           userName_ = b;
@@ -23735,7 +23735,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         userName_ = value;
         onChanged();
         return this;
@@ -23744,7 +23744,7 @@ public final class Services {
        * <code>string UserName = 3;</code>
        */
       public Builder clearUserName() {
-        
+
         userName_ = getDefaultInstance().getUserName();
         onChanged();
         return this;
@@ -23758,7 +23758,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         userName_ = value;
         onChanged();
         return this;
@@ -23787,7 +23787,7 @@ public final class Services {
           getReferrerUrlBytes() {
         java.lang.Object ref = referrerUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           referrerUrl_ = b;
@@ -23804,7 +23804,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         referrerUrl_ = value;
         onChanged();
         return this;
@@ -23813,7 +23813,7 @@ public final class Services {
        * <code>string ReferrerUrl = 4;</code>
        */
       public Builder clearReferrerUrl() {
-        
+
         referrerUrl_ = getDefaultInstance().getReferrerUrl();
         onChanged();
         return this;
@@ -23827,7 +23827,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         referrerUrl_ = value;
         onChanged();
         return this;
@@ -23856,7 +23856,7 @@ public final class Services {
           getBearerTokenBytes() {
         java.lang.Object ref = bearerToken_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           bearerToken_ = b;
@@ -23873,7 +23873,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         bearerToken_ = value;
         onChanged();
         return this;
@@ -23882,7 +23882,7 @@ public final class Services {
        * <code>string BearerToken = 5;</code>
        */
       public Builder clearBearerToken() {
-        
+
         bearerToken_ = getDefaultInstance().getBearerToken();
         onChanged();
         return this;
@@ -23896,7 +23896,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         bearerToken_ = value;
         onChanged();
         return this;
@@ -23925,7 +23925,7 @@ public final class Services {
           getRefreshTokenBytes() {
         java.lang.Object ref = refreshToken_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           refreshToken_ = b;
@@ -23942,7 +23942,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         refreshToken_ = value;
         onChanged();
         return this;
@@ -23951,7 +23951,7 @@ public final class Services {
        * <code>string RefreshToken = 6;</code>
        */
       public Builder clearRefreshToken() {
-        
+
         refreshToken_ = getDefaultInstance().getRefreshToken();
         onChanged();
         return this;
@@ -23965,7 +23965,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         refreshToken_ = value;
         onChanged();
         return this;
@@ -24056,7 +24056,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 7;</code>
        */
       public net.servicestack.androidgrpc.Services.ResponseStatus.Builder getResponseStatusBuilder() {
-        
+
         onChanged();
         return getResponseStatusFieldBuilder().getBuilder();
       }
@@ -24075,7 +24075,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder> 
+          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder>
           getResponseStatusFieldBuilder() {
         if (responseStatusBuilder_ == null) {
           responseStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -24883,7 +24883,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         errorCode_ = s;
@@ -24897,7 +24897,7 @@ public final class Services {
         getErrorCodeBytes() {
       java.lang.Object ref = errorCode_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         errorCode_ = b;
@@ -24917,7 +24917,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         fieldName_ = s;
@@ -24931,7 +24931,7 @@ public final class Services {
         getFieldNameBytes() {
       java.lang.Object ref = fieldName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         fieldName_ = b;
@@ -24951,7 +24951,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         message_ = s;
@@ -24965,7 +24965,7 @@ public final class Services {
         getMessageBytes() {
       java.lang.Object ref = message_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         message_ = b;
@@ -24981,7 +24981,7 @@ public final class Services {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  net.servicestack.androidgrpc.Services.internal_static_ResponseError_MetaEntry_descriptor, 
+                  net.servicestack.androidgrpc.Services.internal_static_ResponseError_MetaEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -25461,7 +25461,7 @@ public final class Services {
           getErrorCodeBytes() {
         java.lang.Object ref = errorCode_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           errorCode_ = b;
@@ -25478,7 +25478,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         errorCode_ = value;
         onChanged();
         return this;
@@ -25487,7 +25487,7 @@ public final class Services {
        * <code>string ErrorCode = 1;</code>
        */
       public Builder clearErrorCode() {
-        
+
         errorCode_ = getDefaultInstance().getErrorCode();
         onChanged();
         return this;
@@ -25501,7 +25501,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         errorCode_ = value;
         onChanged();
         return this;
@@ -25530,7 +25530,7 @@ public final class Services {
           getFieldNameBytes() {
         java.lang.Object ref = fieldName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           fieldName_ = b;
@@ -25547,7 +25547,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         fieldName_ = value;
         onChanged();
         return this;
@@ -25556,7 +25556,7 @@ public final class Services {
        * <code>string FieldName = 2;</code>
        */
       public Builder clearFieldName() {
-        
+
         fieldName_ = getDefaultInstance().getFieldName();
         onChanged();
         return this;
@@ -25570,7 +25570,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         fieldName_ = value;
         onChanged();
         return this;
@@ -25599,7 +25599,7 @@ public final class Services {
           getMessageBytes() {
         java.lang.Object ref = message_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           message_ = b;
@@ -25616,7 +25616,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         message_ = value;
         onChanged();
         return this;
@@ -25625,7 +25625,7 @@ public final class Services {
        * <code>string Message = 3;</code>
        */
       public Builder clearMessage() {
-        
+
         message_ = getDefaultInstance().getMessage();
         onChanged();
         return this;
@@ -25639,7 +25639,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         message_ = value;
         onChanged();
         return this;
@@ -25857,7 +25857,7 @@ public final class Services {
     /**
      * <code>repeated .ResponseError Errors = 4;</code>
      */
-    java.util.List<net.servicestack.androidgrpc.Services.ResponseError> 
+    java.util.List<net.servicestack.androidgrpc.Services.ResponseError>
         getErrorsList();
     /**
      * <code>repeated .ResponseError Errors = 4;</code>
@@ -25870,7 +25870,7 @@ public final class Services {
     /**
      * <code>repeated .ResponseError Errors = 4;</code>
      */
-    java.util.List<? extends net.servicestack.androidgrpc.Services.ResponseErrorOrBuilder> 
+    java.util.List<? extends net.servicestack.androidgrpc.Services.ResponseErrorOrBuilder>
         getErrorsOrBuilderList();
     /**
      * <code>repeated .ResponseError Errors = 4;</code>
@@ -26059,7 +26059,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         errorCode_ = s;
@@ -26073,7 +26073,7 @@ public final class Services {
         getErrorCodeBytes() {
       java.lang.Object ref = errorCode_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         errorCode_ = b;
@@ -26093,7 +26093,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         message_ = s;
@@ -26107,7 +26107,7 @@ public final class Services {
         getMessageBytes() {
       java.lang.Object ref = message_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         message_ = b;
@@ -26127,7 +26127,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         stackTrace_ = s;
@@ -26141,7 +26141,7 @@ public final class Services {
         getStackTraceBytes() {
       java.lang.Object ref = stackTrace_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         stackTrace_ = b;
@@ -26162,7 +26162,7 @@ public final class Services {
     /**
      * <code>repeated .ResponseError Errors = 4;</code>
      */
-    public java.util.List<? extends net.servicestack.androidgrpc.Services.ResponseErrorOrBuilder> 
+    public java.util.List<? extends net.servicestack.androidgrpc.Services.ResponseErrorOrBuilder>
         getErrorsOrBuilderList() {
       return errors_;
     }
@@ -26192,7 +26192,7 @@ public final class Services {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  net.servicestack.androidgrpc.Services.internal_static_ResponseStatus_MetaEntry_descriptor, 
+                  net.servicestack.androidgrpc.Services.internal_static_ResponseStatus_MetaEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -26664,7 +26664,7 @@ public final class Services {
               errorsBuilder_ = null;
               errors_ = other.errors_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              errorsBuilder_ = 
+              errorsBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getErrorsFieldBuilder() : null;
             } else {
@@ -26727,7 +26727,7 @@ public final class Services {
           getErrorCodeBytes() {
         java.lang.Object ref = errorCode_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           errorCode_ = b;
@@ -26744,7 +26744,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         errorCode_ = value;
         onChanged();
         return this;
@@ -26753,7 +26753,7 @@ public final class Services {
        * <code>string ErrorCode = 1;</code>
        */
       public Builder clearErrorCode() {
-        
+
         errorCode_ = getDefaultInstance().getErrorCode();
         onChanged();
         return this;
@@ -26767,7 +26767,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         errorCode_ = value;
         onChanged();
         return this;
@@ -26796,7 +26796,7 @@ public final class Services {
           getMessageBytes() {
         java.lang.Object ref = message_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           message_ = b;
@@ -26813,7 +26813,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         message_ = value;
         onChanged();
         return this;
@@ -26822,7 +26822,7 @@ public final class Services {
        * <code>string Message = 2;</code>
        */
       public Builder clearMessage() {
-        
+
         message_ = getDefaultInstance().getMessage();
         onChanged();
         return this;
@@ -26836,7 +26836,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         message_ = value;
         onChanged();
         return this;
@@ -26865,7 +26865,7 @@ public final class Services {
           getStackTraceBytes() {
         java.lang.Object ref = stackTrace_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           stackTrace_ = b;
@@ -26882,7 +26882,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         stackTrace_ = value;
         onChanged();
         return this;
@@ -26891,7 +26891,7 @@ public final class Services {
        * <code>string StackTrace = 3;</code>
        */
       public Builder clearStackTrace() {
-        
+
         stackTrace_ = getDefaultInstance().getStackTrace();
         onChanged();
         return this;
@@ -26905,7 +26905,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         stackTrace_ = value;
         onChanged();
         return this;
@@ -27106,7 +27106,7 @@ public final class Services {
       /**
        * <code>repeated .ResponseError Errors = 4;</code>
        */
-      public java.util.List<? extends net.servicestack.androidgrpc.Services.ResponseErrorOrBuilder> 
+      public java.util.List<? extends net.servicestack.androidgrpc.Services.ResponseErrorOrBuilder>
            getErrorsOrBuilderList() {
         if (errorsBuilder_ != null) {
           return errorsBuilder_.getMessageOrBuilderList();
@@ -27132,12 +27132,12 @@ public final class Services {
       /**
        * <code>repeated .ResponseError Errors = 4;</code>
        */
-      public java.util.List<net.servicestack.androidgrpc.Services.ResponseError.Builder> 
+      public java.util.List<net.servicestack.androidgrpc.Services.ResponseError.Builder>
            getErrorsBuilderList() {
         return getErrorsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          net.servicestack.androidgrpc.Services.ResponseError, net.servicestack.androidgrpc.Services.ResponseError.Builder, net.servicestack.androidgrpc.Services.ResponseErrorOrBuilder> 
+          net.servicestack.androidgrpc.Services.ResponseError, net.servicestack.androidgrpc.Services.ResponseError.Builder, net.servicestack.androidgrpc.Services.ResponseErrorOrBuilder>
           getErrorsFieldBuilder() {
         if (errorsBuilder_ == null) {
           errorsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -29035,7 +29035,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         channel_ = s;
@@ -29049,7 +29049,7 @@ public final class Services {
         getChannelBytes() {
       java.lang.Object ref = channel_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         channel_ = b;
@@ -29069,7 +29069,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         selector_ = s;
@@ -29083,7 +29083,7 @@ public final class Services {
         getSelectorBytes() {
       java.lang.Object ref = selector_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         selector_ = b;
@@ -29103,7 +29103,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         json_ = s;
@@ -29117,7 +29117,7 @@ public final class Services {
         getJsonBytes() {
       java.lang.Object ref = json_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         json_ = b;
@@ -29137,7 +29137,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         op_ = s;
@@ -29151,7 +29151,7 @@ public final class Services {
         getOpBytes() {
       java.lang.Object ref = op_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         op_ = b;
@@ -29171,7 +29171,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         target_ = s;
@@ -29185,7 +29185,7 @@ public final class Services {
         getTargetBytes() {
       java.lang.Object ref = target_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         target_ = b;
@@ -29205,7 +29205,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         cssSelector_ = s;
@@ -29219,7 +29219,7 @@ public final class Services {
         getCssSelectorBytes() {
       java.lang.Object ref = cssSelector_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         cssSelector_ = b;
@@ -29235,7 +29235,7 @@ public final class Services {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  net.servicestack.androidgrpc.Services.internal_static_StreamServerEventsResponse_MetaEntry_descriptor, 
+                  net.servicestack.androidgrpc.Services.internal_static_StreamServerEventsResponse_MetaEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -29315,7 +29315,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         userId_ = s;
@@ -29329,7 +29329,7 @@ public final class Services {
         getUserIdBytes() {
       java.lang.Object ref = userId_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         userId_ = b;
@@ -29349,7 +29349,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         displayName_ = s;
@@ -29363,7 +29363,7 @@ public final class Services {
         getDisplayNameBytes() {
       java.lang.Object ref = displayName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         displayName_ = b;
@@ -29383,7 +29383,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         profileUrl_ = s;
@@ -29397,7 +29397,7 @@ public final class Services {
         getProfileUrlBytes() {
       java.lang.Object ref = profileUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         profileUrl_ = b;
@@ -29464,7 +29464,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         id_ = s;
@@ -29478,7 +29478,7 @@ public final class Services {
         getIdBytes() {
       java.lang.Object ref = id_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         id_ = b;
@@ -29498,7 +29498,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         unRegisterUrl_ = s;
@@ -29512,7 +29512,7 @@ public final class Services {
         getUnRegisterUrlBytes() {
       java.lang.Object ref = unRegisterUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         unRegisterUrl_ = b;
@@ -29532,7 +29532,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         updateSubscriberUrl_ = s;
@@ -29546,7 +29546,7 @@ public final class Services {
         getUpdateSubscriberUrlBytes() {
       java.lang.Object ref = updateSubscriberUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         updateSubscriberUrl_ = b;
@@ -29566,7 +29566,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         heartbeatUrl_ = s;
@@ -29580,7 +29580,7 @@ public final class Services {
         getHeartbeatUrlBytes() {
       java.lang.Object ref = heartbeatUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         heartbeatUrl_ = b;
@@ -30351,7 +30351,7 @@ public final class Services {
        * <code>int64 EventId = 1;</code>
        */
       public Builder setEventId(long value) {
-        
+
         eventId_ = value;
         onChanged();
         return this;
@@ -30360,7 +30360,7 @@ public final class Services {
        * <code>int64 EventId = 1;</code>
        */
       public Builder clearEventId() {
-        
+
         eventId_ = 0L;
         onChanged();
         return this;
@@ -30389,7 +30389,7 @@ public final class Services {
           getChannelBytes() {
         java.lang.Object ref = channel_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           channel_ = b;
@@ -30406,7 +30406,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         channel_ = value;
         onChanged();
         return this;
@@ -30415,7 +30415,7 @@ public final class Services {
        * <code>string Channel = 2;</code>
        */
       public Builder clearChannel() {
-        
+
         channel_ = getDefaultInstance().getChannel();
         onChanged();
         return this;
@@ -30429,7 +30429,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         channel_ = value;
         onChanged();
         return this;
@@ -30458,7 +30458,7 @@ public final class Services {
           getSelectorBytes() {
         java.lang.Object ref = selector_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           selector_ = b;
@@ -30475,7 +30475,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         selector_ = value;
         onChanged();
         return this;
@@ -30484,7 +30484,7 @@ public final class Services {
        * <code>string Selector = 4;</code>
        */
       public Builder clearSelector() {
-        
+
         selector_ = getDefaultInstance().getSelector();
         onChanged();
         return this;
@@ -30498,7 +30498,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         selector_ = value;
         onChanged();
         return this;
@@ -30527,7 +30527,7 @@ public final class Services {
           getJsonBytes() {
         java.lang.Object ref = json_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           json_ = b;
@@ -30544,7 +30544,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         json_ = value;
         onChanged();
         return this;
@@ -30553,7 +30553,7 @@ public final class Services {
        * <code>string Json = 5;</code>
        */
       public Builder clearJson() {
-        
+
         json_ = getDefaultInstance().getJson();
         onChanged();
         return this;
@@ -30567,7 +30567,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         json_ = value;
         onChanged();
         return this;
@@ -30596,7 +30596,7 @@ public final class Services {
           getOpBytes() {
         java.lang.Object ref = op_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           op_ = b;
@@ -30613,7 +30613,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         op_ = value;
         onChanged();
         return this;
@@ -30622,7 +30622,7 @@ public final class Services {
        * <code>string Op = 6;</code>
        */
       public Builder clearOp() {
-        
+
         op_ = getDefaultInstance().getOp();
         onChanged();
         return this;
@@ -30636,7 +30636,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         op_ = value;
         onChanged();
         return this;
@@ -30665,7 +30665,7 @@ public final class Services {
           getTargetBytes() {
         java.lang.Object ref = target_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           target_ = b;
@@ -30682,7 +30682,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         target_ = value;
         onChanged();
         return this;
@@ -30691,7 +30691,7 @@ public final class Services {
        * <code>string Target = 7;</code>
        */
       public Builder clearTarget() {
-        
+
         target_ = getDefaultInstance().getTarget();
         onChanged();
         return this;
@@ -30705,7 +30705,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         target_ = value;
         onChanged();
         return this;
@@ -30734,7 +30734,7 @@ public final class Services {
           getCssSelectorBytes() {
         java.lang.Object ref = cssSelector_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           cssSelector_ = b;
@@ -30751,7 +30751,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         cssSelector_ = value;
         onChanged();
         return this;
@@ -30760,7 +30760,7 @@ public final class Services {
        * <code>string CssSelector = 8;</code>
        */
       public Builder clearCssSelector() {
-        
+
         cssSelector_ = getDefaultInstance().getCssSelector();
         onChanged();
         return this;
@@ -30774,7 +30774,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         cssSelector_ = value;
         onChanged();
         return this;
@@ -30926,7 +30926,7 @@ public final class Services {
           getUserIdBytes() {
         java.lang.Object ref = userId_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           userId_ = b;
@@ -30943,7 +30943,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         userId_ = value;
         onChanged();
         return this;
@@ -30952,7 +30952,7 @@ public final class Services {
        * <code>string UserId = 10;</code>
        */
       public Builder clearUserId() {
-        
+
         userId_ = getDefaultInstance().getUserId();
         onChanged();
         return this;
@@ -30966,7 +30966,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         userId_ = value;
         onChanged();
         return this;
@@ -30995,7 +30995,7 @@ public final class Services {
           getDisplayNameBytes() {
         java.lang.Object ref = displayName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           displayName_ = b;
@@ -31012,7 +31012,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         displayName_ = value;
         onChanged();
         return this;
@@ -31021,7 +31021,7 @@ public final class Services {
        * <code>string DisplayName = 11;</code>
        */
       public Builder clearDisplayName() {
-        
+
         displayName_ = getDefaultInstance().getDisplayName();
         onChanged();
         return this;
@@ -31035,7 +31035,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         displayName_ = value;
         onChanged();
         return this;
@@ -31064,7 +31064,7 @@ public final class Services {
           getProfileUrlBytes() {
         java.lang.Object ref = profileUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           profileUrl_ = b;
@@ -31081,7 +31081,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         profileUrl_ = value;
         onChanged();
         return this;
@@ -31090,7 +31090,7 @@ public final class Services {
        * <code>string ProfileUrl = 12;</code>
        */
       public Builder clearProfileUrl() {
-        
+
         profileUrl_ = getDefaultInstance().getProfileUrl();
         onChanged();
         return this;
@@ -31104,7 +31104,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         profileUrl_ = value;
         onChanged();
         return this;
@@ -31121,7 +31121,7 @@ public final class Services {
        * <code>bool IsAuthenticated = 13;</code>
        */
       public Builder setIsAuthenticated(boolean value) {
-        
+
         isAuthenticated_ = value;
         onChanged();
         return this;
@@ -31130,7 +31130,7 @@ public final class Services {
        * <code>bool IsAuthenticated = 13;</code>
        */
       public Builder clearIsAuthenticated() {
-        
+
         isAuthenticated_ = false;
         onChanged();
         return this;
@@ -31241,7 +31241,7 @@ public final class Services {
        * <code>int64 CreatedAt = 15;</code>
        */
       public Builder setCreatedAt(long value) {
-        
+
         createdAt_ = value;
         onChanged();
         return this;
@@ -31250,7 +31250,7 @@ public final class Services {
        * <code>int64 CreatedAt = 15;</code>
        */
       public Builder clearCreatedAt() {
-        
+
         createdAt_ = 0L;
         onChanged();
         return this;
@@ -31279,7 +31279,7 @@ public final class Services {
           getIdBytes() {
         java.lang.Object ref = id_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           id_ = b;
@@ -31296,7 +31296,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         id_ = value;
         onChanged();
         return this;
@@ -31305,7 +31305,7 @@ public final class Services {
        * <code>string Id = 21;</code>
        */
       public Builder clearId() {
-        
+
         id_ = getDefaultInstance().getId();
         onChanged();
         return this;
@@ -31319,7 +31319,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         id_ = value;
         onChanged();
         return this;
@@ -31348,7 +31348,7 @@ public final class Services {
           getUnRegisterUrlBytes() {
         java.lang.Object ref = unRegisterUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           unRegisterUrl_ = b;
@@ -31365,7 +31365,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         unRegisterUrl_ = value;
         onChanged();
         return this;
@@ -31374,7 +31374,7 @@ public final class Services {
        * <code>string UnRegisterUrl = 22;</code>
        */
       public Builder clearUnRegisterUrl() {
-        
+
         unRegisterUrl_ = getDefaultInstance().getUnRegisterUrl();
         onChanged();
         return this;
@@ -31388,7 +31388,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         unRegisterUrl_ = value;
         onChanged();
         return this;
@@ -31417,7 +31417,7 @@ public final class Services {
           getUpdateSubscriberUrlBytes() {
         java.lang.Object ref = updateSubscriberUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           updateSubscriberUrl_ = b;
@@ -31434,7 +31434,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         updateSubscriberUrl_ = value;
         onChanged();
         return this;
@@ -31443,7 +31443,7 @@ public final class Services {
        * <code>string UpdateSubscriberUrl = 23;</code>
        */
       public Builder clearUpdateSubscriberUrl() {
-        
+
         updateSubscriberUrl_ = getDefaultInstance().getUpdateSubscriberUrl();
         onChanged();
         return this;
@@ -31457,7 +31457,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         updateSubscriberUrl_ = value;
         onChanged();
         return this;
@@ -31486,7 +31486,7 @@ public final class Services {
           getHeartbeatUrlBytes() {
         java.lang.Object ref = heartbeatUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           heartbeatUrl_ = b;
@@ -31503,7 +31503,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         heartbeatUrl_ = value;
         onChanged();
         return this;
@@ -31512,7 +31512,7 @@ public final class Services {
        * <code>string HeartbeatUrl = 24;</code>
        */
       public Builder clearHeartbeatUrl() {
-        
+
         heartbeatUrl_ = getDefaultInstance().getHeartbeatUrl();
         onChanged();
         return this;
@@ -31526,7 +31526,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         heartbeatUrl_ = value;
         onChanged();
         return this;
@@ -31543,7 +31543,7 @@ public final class Services {
        * <code>int64 HeartbeatIntervalMs = 25;</code>
        */
       public Builder setHeartbeatIntervalMs(long value) {
-        
+
         heartbeatIntervalMs_ = value;
         onChanged();
         return this;
@@ -31552,7 +31552,7 @@ public final class Services {
        * <code>int64 HeartbeatIntervalMs = 25;</code>
        */
       public Builder clearHeartbeatIntervalMs() {
-        
+
         heartbeatIntervalMs_ = 0L;
         onChanged();
         return this;
@@ -31569,7 +31569,7 @@ public final class Services {
        * <code>int64 IdleTimeoutMs = 26;</code>
        */
       public Builder setIdleTimeoutMs(long value) {
-        
+
         idleTimeoutMs_ = value;
         onChanged();
         return this;
@@ -31578,7 +31578,7 @@ public final class Services {
        * <code>int64 IdleTimeoutMs = 26;</code>
        */
       public Builder clearIdleTimeoutMs() {
-        
+
         idleTimeoutMs_ = 0L;
         onChanged();
         return this;
@@ -31669,7 +31669,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 30;</code>
        */
       public net.servicestack.androidgrpc.Services.ResponseStatus.Builder getResponseStatusBuilder() {
-        
+
         onChanged();
         return getResponseStatusFieldBuilder().getBuilder();
       }
@@ -31688,7 +31688,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 30;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder> 
+          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder>
           getResponseStatusFieldBuilder() {
         if (responseStatusBuilder_ == null) {
           responseStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -31900,7 +31900,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         title_ = s;
@@ -31914,7 +31914,7 @@ public final class Services {
         getTitleBytes() {
       java.lang.Object ref = title_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         title_ = b;
@@ -32308,7 +32308,7 @@ public final class Services {
        * <code>int64 Id = 1;</code>
        */
       public Builder setId(long value) {
-        
+
         id_ = value;
         onChanged();
         return this;
@@ -32317,7 +32317,7 @@ public final class Services {
        * <code>int64 Id = 1;</code>
        */
       public Builder clearId() {
-        
+
         id_ = 0L;
         onChanged();
         return this;
@@ -32346,7 +32346,7 @@ public final class Services {
           getTitleBytes() {
         java.lang.Object ref = title_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           title_ = b;
@@ -32363,7 +32363,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         title_ = value;
         onChanged();
         return this;
@@ -32372,7 +32372,7 @@ public final class Services {
        * <code>string Title = 2;</code>
        */
       public Builder clearTitle() {
-        
+
         title_ = getDefaultInstance().getTitle();
         onChanged();
         return this;
@@ -32386,7 +32386,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         title_ = value;
         onChanged();
         return this;
@@ -32403,7 +32403,7 @@ public final class Services {
        * <code>int32 Order = 3;</code>
        */
       public Builder setOrder(int value) {
-        
+
         order_ = value;
         onChanged();
         return this;
@@ -32412,7 +32412,7 @@ public final class Services {
        * <code>int32 Order = 3;</code>
        */
       public Builder clearOrder() {
-        
+
         order_ = 0;
         onChanged();
         return this;
@@ -32429,7 +32429,7 @@ public final class Services {
        * <code>bool Completed = 4;</code>
        */
       public Builder setCompleted(boolean value) {
-        
+
         completed_ = value;
         onChanged();
         return this;
@@ -32438,7 +32438,7 @@ public final class Services {
        * <code>bool Completed = 4;</code>
        */
       public Builder clearCompleted() {
-        
+
         completed_ = false;
         onChanged();
         return this;
@@ -32728,7 +32728,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         userName_ = s;
@@ -32742,7 +32742,7 @@ public final class Services {
         getUserNameBytes() {
       java.lang.Object ref = userName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         userName_ = b;
@@ -32816,7 +32816,7 @@ public final class Services {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  net.servicestack.androidgrpc.Services.internal_static_UnAssignRoles_MetaEntry_descriptor, 
+                  net.servicestack.androidgrpc.Services.internal_static_UnAssignRoles_MetaEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -33330,7 +33330,7 @@ public final class Services {
           getUserNameBytes() {
         java.lang.Object ref = userName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           userName_ = b;
@@ -33347,7 +33347,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         userName_ = value;
         onChanged();
         return this;
@@ -33356,7 +33356,7 @@ public final class Services {
        * <code>string UserName = 1;</code>
        */
       public Builder clearUserName() {
-        
+
         userName_ = getDefaultInstance().getUserName();
         onChanged();
         return this;
@@ -33370,7 +33370,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         userName_ = value;
         onChanged();
         return this;
@@ -34034,7 +34034,7 @@ public final class Services {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  net.servicestack.androidgrpc.Services.internal_static_UnAssignRolesResponse_MetaEntry_descriptor, 
+                  net.servicestack.androidgrpc.Services.internal_static_UnAssignRolesResponse_MetaEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -34955,7 +34955,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 4;</code>
        */
       public net.servicestack.androidgrpc.Services.ResponseStatus.Builder getResponseStatusBuilder() {
-        
+
         onChanged();
         return getResponseStatusFieldBuilder().getBuilder();
       }
@@ -34974,7 +34974,7 @@ public final class Services {
        * <code>.ResponseStatus ResponseStatus = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder> 
+          net.servicestack.androidgrpc.Services.ResponseStatus, net.servicestack.androidgrpc.Services.ResponseStatus.Builder, net.servicestack.androidgrpc.Services.ResponseStatusOrBuilder>
           getResponseStatusFieldBuilder() {
         if (responseStatusBuilder_ == null) {
           responseStatusBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -35186,7 +35186,7 @@ public final class Services {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         title_ = s;
@@ -35200,7 +35200,7 @@ public final class Services {
         getTitleBytes() {
       java.lang.Object ref = title_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         title_ = b;
@@ -35594,7 +35594,7 @@ public final class Services {
        * <code>int64 Id = 1;</code>
        */
       public Builder setId(long value) {
-        
+
         id_ = value;
         onChanged();
         return this;
@@ -35603,7 +35603,7 @@ public final class Services {
        * <code>int64 Id = 1;</code>
        */
       public Builder clearId() {
-        
+
         id_ = 0L;
         onChanged();
         return this;
@@ -35632,7 +35632,7 @@ public final class Services {
           getTitleBytes() {
         java.lang.Object ref = title_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           title_ = b;
@@ -35649,7 +35649,7 @@ public final class Services {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         title_ = value;
         onChanged();
         return this;
@@ -35658,7 +35658,7 @@ public final class Services {
        * <code>string Title = 2;</code>
        */
       public Builder clearTitle() {
-        
+
         title_ = getDefaultInstance().getTitle();
         onChanged();
         return this;
@@ -35672,7 +35672,7 @@ public final class Services {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         title_ = value;
         onChanged();
         return this;
@@ -35689,7 +35689,7 @@ public final class Services {
        * <code>int32 Order = 3;</code>
        */
       public Builder setOrder(int value) {
-        
+
         order_ = value;
         onChanged();
         return this;
@@ -35698,7 +35698,7 @@ public final class Services {
        * <code>int32 Order = 3;</code>
        */
       public Builder clearOrder() {
-        
+
         order_ = 0;
         onChanged();
         return this;
@@ -35715,7 +35715,7 @@ public final class Services {
        * <code>bool Completed = 4;</code>
        */
       public Builder setCompleted(boolean value) {
-        
+
         completed_ = value;
         onChanged();
         return this;
@@ -35724,7 +35724,7 @@ public final class Services {
        * <code>bool Completed = 4;</code>
        */
       public Builder clearCompleted() {
-        
+
         completed_ = false;
         onChanged();
         return this;
@@ -35784,242 +35784,242 @@ public final class Services {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AssignRoles_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AssignRoles_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AssignRoles_MetaEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AssignRoles_MetaEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AssignRolesResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AssignRolesResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AssignRolesResponse_MetaEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AssignRolesResponse_MetaEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Authenticate_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Authenticate_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Authenticate_MetaEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Authenticate_MetaEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AuthenticateResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AuthenticateResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AuthenticateResponse_MetaEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AuthenticateResponse_MetaEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ConvertSessionToToken_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ConvertSessionToToken_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ConvertSessionToToken_MetaEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ConvertSessionToToken_MetaEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ConvertSessionToTokenResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ConvertSessionToTokenResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ConvertSessionToTokenResponse_MetaEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ConvertSessionToTokenResponse_MetaEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CreateTodo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CreateTodo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CreateTodoResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CreateTodoResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DeleteTodo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DeleteTodo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DeleteTodos_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DeleteTodos_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EmptyResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EmptyResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FileContent_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FileContent_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetAccessToken_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetAccessToken_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetAccessToken_MetaEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetAccessToken_MetaEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetAccessTokenResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetAccessTokenResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetAccessTokenResponse_MetaEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetAccessTokenResponse_MetaEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetTodo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetTodo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetTodoResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetTodoResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetTodos_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetTodos_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetTodosResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetTodosResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Hello_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Hello_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HelloResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HelloResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HelloSecure_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HelloSecure_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Register_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Register_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Register_MetaEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Register_MetaEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RegisterResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RegisterResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RegisterResponse_MetaEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RegisterResponse_MetaEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ResetTodos_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ResetTodos_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ResponseError_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ResponseError_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ResponseError_MetaEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ResponseError_MetaEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ResponseStatus_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ResponseStatus_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ResponseStatus_MetaEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ResponseStatus_MetaEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_StreamFiles_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_StreamFiles_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_StreamServerEvents_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_StreamServerEvents_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_StreamServerEventsResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_StreamServerEventsResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_StreamServerEventsResponse_MetaEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_StreamServerEventsResponse_MetaEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Todo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Todo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UnAssignRoles_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UnAssignRoles_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UnAssignRoles_MetaEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UnAssignRoles_MetaEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UnAssignRolesResponse_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UnAssignRolesResponse_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UnAssignRolesResponse_MetaEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UnAssignRolesResponse_MetaEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UpdateTodo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UpdateTodo_fieldAccessorTable;
 

@@ -53,21 +53,26 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
-    DefaultAssetBundle.of(context).load("assets/grpc.crt").then((bytes) => setState(() {
-      client = GrpcServicesClient(
-          ClientChannel('todoworld.servicestack.net', port:50051,
-              options:ChannelOptions(credentials: ChannelCredentials.secure(
-                  certificates: bytes.buffer.asUint8List(),
-                  authority: 'todoworld.servicestack.net'
-              ))));
-    }));
+    DefaultAssetBundle.of(context)
+        .load("assets/grpc.crt")
+        .then((bytes) => setState(() {
+              client = GrpcServicesClient(ClientChannel(
+                  'todoworld.servicestack.net',
+                  port: 50051,
+                  options: ChannelOptions(
+                      credentials: ChannelCredentials.secure(
+                          certificates: bytes.buffer.asUint8List(),
+                          authority: 'todoworld.servicestack.net'))));
+            }));
   }
 
   void _callGrpcService() async {
-    var response = await client.getHello(Hello()..name="gRPC SSL");
-    setState(() {
-      result = response.result;
-    });
+    if (null != client) {
+      var response = await client.getHello(Hello()..name = "gRPC SSL");
+      setState(() {
+        result = response.result;
+      });
+    }
   }
 
   void _incrementCounter() {
@@ -77,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
       // so that the display can reflect the updated values. If we changed
       // _counter without calling setState(), then the build method would not be
       // called again, and so nothing would appear to happen.
-      _counter+=10;
+      _counter += 10;
     });
   }
 
