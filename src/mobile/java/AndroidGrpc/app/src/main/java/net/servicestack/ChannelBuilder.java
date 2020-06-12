@@ -36,6 +36,8 @@ import javax.net.ssl.TrustManager;
 import javax.net.ssl.TrustManagerFactory;
 import javax.security.auth.x500.X500Principal;
 
+import static com.squareup.okhttp.ConnectionSpec.MODERN_TLS;
+
 /**
  * A helper class to create a OkHttp based channel.
  */
@@ -69,6 +71,7 @@ public class ChannelBuilder {
             try {
 
                 ((OkHttpChannelBuilder) channelBuilder).useTransportSecurity();
+                ((OkHttpChannelBuilder) channelBuilder).connectionSpec(MODERN_TLS);
                 ((OkHttpChannelBuilder) channelBuilder).sslSocketFactory(getSslSocketFactory(caStream,clientStream));
             } catch (Exception e) {
                 throw new RuntimeException(e);
@@ -84,7 +87,7 @@ public class ChannelBuilder {
         if (testCa == null) {
             return (SSLSocketFactory) SSLSocketFactory.getDefault();
         }
-        SSLContext context = SSLContext.getInstance("TLSv1.2");
+        SSLContext context = SSLContext.getInstance("TLSv1.3");
 
         context.init(getKeyManagers(clientcert), getTrustManagers(testCa) , null);
         String[] mylist= context.createSSLEngine().getEnabledProtocols();
