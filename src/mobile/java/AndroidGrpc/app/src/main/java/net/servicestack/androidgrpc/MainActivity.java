@@ -14,7 +14,10 @@ import com.google.android.material.snackbar.Snackbar;
 
 import net.servicestack.ChannelBuilder;
 
+import org.conscrypt.Conscrypt;
+
 import java.io.InputStream;
+import java.security.Security;
 
 import io.grpc.ManagedChannel;
 import io.grpc.stub.StreamObserver;
@@ -32,12 +35,14 @@ public class MainActivity extends AppCompatActivity {
         ManagedChannel channel = null;
         InputStream is = null;
            InputStream clientis = null;
-        try {
+           //Security.insertProviderAt(Conscrypt.newProvider(), 1);
+
+           try {
             Log.d("GRPC DEMO","ON CREATE");
             is = getResources().getAssets().open("root.crt");
-            clientis = getResources().getAssets().open("client2.crt");
+            clientis = getResources().getAssets().open("clientcrt.p12");
             channel = ChannelBuilder.buildTls(
-                "ptt.do7a.io", 2000, is,clientis);
+                "ptt.do7a.io", 2000, is,clientis, getApplicationContext());
             is.close();
             clientis.close();
             Log.d("GRPC DEMO","CHANNEL READY");
@@ -46,9 +51,6 @@ public class MainActivity extends AppCompatActivity {
             Log.d("GRPC DEMO Throwable",e.getMessage());
 
         }
-
-        final GrpcServicesGrpc.GrpcServicesStub client =
-            GrpcServicesGrpc.newStub(channel);
            final pttserver_pb.PttGRPCServiceGrpc.PttGRPCServiceStub client2 =
                    pttserver_pb.PttGRPCServiceGrpc.newStub(channel);
         FloatingActionButton fab = findViewById(R.id.fab);
