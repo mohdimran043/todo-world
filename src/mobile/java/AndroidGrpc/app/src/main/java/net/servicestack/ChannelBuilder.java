@@ -16,7 +16,11 @@
 
 package net.servicestack;
 
+import android.content.Context;
 import android.util.Log;
+
+import com.squareup.okhttp.ConnectionSpec;
+import com.squareup.okhttp.TlsVersion;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
@@ -26,6 +30,7 @@ import java.io.InputStream;
 import java.security.KeyStore;
 import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
+import java.util.Arrays;
 
 import javax.annotation.Nullable;
 import javax.net.ssl.KeyManager;
@@ -42,15 +47,15 @@ import static com.squareup.okhttp.ConnectionSpec.MODERN_TLS;
  * A helper class to create a OkHttp based channel.
  */
 public class ChannelBuilder {
-    public static ManagedChannel buildTls(String host, int port, InputStream caStream, InputStream clientStream)
+    public static ManagedChannel buildTls(String host, int port, InputStream caStream, InputStream clientStream, Context ctx)
     {
-        return build(host, port, null, true, caStream,clientStream);
+        return build(host, port, null, true, caStream,clientStream, ctx);
     }
 
     public static ManagedChannel buildTls(
-        String host, int port, InputStream caStream,InputStream clientStream, @Nullable String serverHostOverride)
+        String host, int port, InputStream caStream,InputStream clientStream, @Nullable String serverHostOverride, Context ctx)
     {
-        return build(host, port, serverHostOverride, true, caStream,clientStream);
+        return build(host, port, serverHostOverride, true, caStream,clientStream, ctx);
     }
 
     public static ManagedChannel build(
@@ -59,7 +64,8 @@ public class ChannelBuilder {
             @Nullable String serverHostOverride,
             boolean useTls,
             @Nullable InputStream caStream,
-            @Nullable InputStream clientStream) {
+            @Nullable InputStream clientStream,
+            Context ctx) {
         ManagedChannelBuilder<?> channelBuilder = ManagedChannelBuilder
                 .forAddress(host, port)
                 .maxInboundMessageSize(16 * 1024 * 1024);
@@ -70,9 +76,13 @@ public class ChannelBuilder {
         if (useTls) {
             try {
 
+                ConnectionSpec requireTls12 = new ConnectionSpec.Builder(ConnectionSpec.MODERN_TLS)
+                        .tlsVersions(TlsVersion.TLS_1_2)
+                        .build();
+
                 ((OkHttpChannelBuilder) channelBuilder).useTransportSecurity();
-                ((OkHttpChannelBuilder) channelBuilder).connectionSpec(MODERN_TLS);
-                ((OkHttpChannelBuilder) channelBuilder).sslSocketFactory(getSslSocketFactory(caStream,clientStream));
+                ((OkHttpChannelBuilder) channelBuilder).connectionSpec(requireTls12);
+                ((OkHttpChannelBuilder) channelBuilder).sslSocketFactory(getSslSocketFactory(caStream,clientStream, ctx));
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
@@ -82,23 +92,22 @@ public class ChannelBuilder {
         return channelBuilder.build();
     }
 
-    private static SSLSocketFactory getSslSocketFactory(@Nullable InputStream testCa,@Nullable InputStream clientcert)
+    private static SSLSocketFactory getSslSocketFactory(@Nullable InputStream testCa,@Nullable InputStream clientcert, Context ctx)
             throws Exception {
         if (testCa == null) {
             return (SSLSocketFactory) SSLSocketFactory.getDefault();
         }
-        SSLContext context = SSLContext.getInstance("TLSv1.3");
+        SSLContext context = SSLContext.getInstance("TLSv1.2");
 
-        context.init(getKeyManagers(clientcert), getTrustManagers(testCa) , null);
+        context.init(getpkc12KeyManagers(clientcert, ctx), getTrustManagers(testCa) , null);
         String[] mylist= context.createSSLEngine().getEnabledProtocols();
         for(int i =0 ;i< mylist.length;i++){
             Log.d("GRPC DEMO",mylist[i]);
         }
-
-       // return new TLSSocketFactory(context.getSocketFactory());
-        return context.getSocketFactory();
-
+        return new TLSSocketFactory(context.getSocketFactory());
+        //return context.getSocketFactory();
     }
+
     private static KeyManager[] getKeyManagers(InputStream testCa) throws Exception {
         KeyStore ks = KeyStore.getInstance(KeyStore.getDefaultType());
         ks.load(null);
@@ -112,6 +121,18 @@ public class ChannelBuilder {
         kmf.init(ks, password.toCharArray());
         return kmf.getKeyManagers();
     }
+
+
+    private static KeyManager[] getpkc12KeyManagers(InputStream testCa, Context ctx) throws Exception {
+        KeyStore ks = KeyStore.getInstance("PKCS12");
+        ks.load(ctx.getAssets().open("clientcrt.p12"), "Abc123".toCharArray());
+        final KeyManagerFactory keyManagerFactory = KeyManagerFactory.getInstance(KeyManagerFactory.getDefaultAlgorithm());
+        keyManagerFactory.init(ks, "Abc123".toCharArray());
+        return keyManagerFactory.getKeyManagers();
+    }
+
+
+
     private static TrustManager[] getTrustManagers(InputStream testCa) throws Exception {
         KeyStore ks = KeyStore.getInstance(KeyStore.getDefaultType());
         ks.load(null);
